@@ -30,7 +30,7 @@ The platform integrates:
 
 The complete project setup integrates the VEGA-EDULINK Web IDE, ESP32-S3 wireless programming gateway, VEGA ARIES V2, trainer kits, and custom hardware.
 
-![Project Overview](DOCS/project_overview.jpeg)
+![Overall Project Setup](DOCS/project_overview.jpeg)
 
 ---
 
@@ -75,15 +75,15 @@ This enables the microcontroller to be incorporated into custom carrier boards a
 
 The project was documented through three A3 sheets covering the overall system, GPIO trainer kit, and communication-protocol development kit.
 
-### A3 Sheet – Project Overview
+## A3 Sheet – Project Overview
 
 ![A3 Project Overview](DOCS/A3_DOCUMENTATION/overview.jpeg)
 
-### A3 Sheet – GPIO Trainer Kit
+## A3 Sheet – GPIO Trainer Kit
 
 ![A3 GPIO Kit](DOCS/A3_DOCUMENTATION/GPIO_kit.jpeg)
 
-### A3 Sheet – Communication Protocol Kit
+## A3 Sheet – Communication Protocol Kit
 
 ![A3 Communication Protocol Kit](DOCS/A3_DOCUMENTATION/PROTOCOL_kit.jpeg)
 
@@ -93,11 +93,11 @@ The project was documented through three A3 sheets covering the overall system, 
 
 The trainer kits provide a hands-on platform for experimenting with GPIO, peripherals, sensors, actuators, and communication protocols using the VEGA ARIES V2.
 
-### GPIO Trainer Kit
+## GPIO Trainer Kit
 
 ![GPIO Trainer Kit](DOCS/TRAINER_KITS/Trainer_kit_1_GPIOS.jpeg)
 
-### GPIO and Communication Protocol Trainer Kit
+## GPIO and Communication Protocol Trainer Kit
 
 ![Communication Protocol Trainer Kit](DOCS/TRAINER_KITS/Trainer_kit_2_protocols.jpeg)
 
@@ -263,7 +263,6 @@ XMODEM-CRC is used for reliable firmware transfer by providing packet-based tran
 vega-aries-v2-development-kit/
 │
 ├── FIRMWARE/
-│   └── Firmware source files and programming-related files
 │
 ├── DOCS/
 │   │
