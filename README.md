@@ -26,6 +26,14 @@ The platform integrates:
 
 ---
 
+# Project Setup
+
+The complete project setup integrates the VEGA-EDULINK Web IDE, ESP32-S3 wireless programming gateway, VEGA ARIES V2, trainer kit, and connected peripherals.
+
+![Overall Project Setup](DOCS/project-overall.jpg)
+
+---
+
 ## Key Features
 
 ### 1. Web-Based Development Platform
@@ -60,6 +68,40 @@ The kit is intended to connect the concepts learned through the web platform wit
 As part of the project, a custom schematic symbol and PCB footprint for the VEGA ARIES V2 were created and integrated into the hardware design.
 
 This enables the microcontroller to be incorporated into custom carrier boards and future development hardware.
+
+---
+
+# Project Documentation
+
+The project was documented through three A3 sheets covering the overall system, trainer kit, and GPIO and communication-protocol development kit.
+
+### A3 Sheet 1 – Project Overview
+
+![A3 Overview](DOCS/A3_DOCUMENTATION/A3_Overview.jpg)
+
+### A3 Sheet 2 – GPIO Trainer Kit
+
+![A3 GPIO Trainer Kit](DOCS/A3_DOCUMENTATION/A3_GPIO_Trainer_Kit.jpg)
+
+### A3 Sheet 3 – GPIO & Communication Kit
+
+![A3 GPIO and Communication Kit](DOCS/A3_DOCUMENTATION/A3_GPIO_Communication_Kit.jpg)
+
+---
+
+# VEGA ARIES V2 Trainer Kit
+
+The trainer kit provides a hands-on platform for experimenting with GPIO, peripherals, sensors, actuators, and communication protocols using the VEGA ARIES V2.
+
+![VEGA ARIES V2 Trainer Kit](DOCS/trainer-kit.jpg)
+
+---
+
+# Custom Carrier PCB
+
+A custom carrier PCB was designed to integrate the VEGA ARIES V2 into the project hardware and support the required interfaces and connections.
+
+![Custom VEGA ARIES V2 Carrier PCB](DOCS/carrier-pcb.jpg)
 
 ---
 
@@ -208,13 +250,3 @@ XMODEM-CRC is used for reliable firmware transfer by providing packet-based tran
 - VEGA ARIES V2 programming interface
 
 ---
-
-# Repository Structure
-
-```text
-vega-aries-v2-development-kit/
-│
-├── FIRMWARE/
-│   └── Firmware source files and programming-related files
-│
-└── README.md
