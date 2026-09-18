@@ -8,17 +8,17 @@ VEGA-EDULINK is designed to provide students with a complete environment for lea
 
 The platform integrates:
 
--> VEGA ARIES V2 learning resources and documentation
--> Web-based IDE for C/C++ development
--> Backend compilation and firmware generation
--> Direct cable-based programming
--> Wireless OTA (Over-The-Air) programming
--> ESP32-S3 based wireless programming gateway
--> Wi-Fi Manager for network configuration
--> VEGA ARIES V2 trainer kit for practical experiments
--> GPIO and peripheral interfacing
--> Communication protocol experiments
--> Custom hardware integration for VEGA ARIES V2
+- VEGA ARIES V2 learning resources and documentation
+- Web-based IDE for C/C++ development
+- Backend compilation and firmware generation
+- Direct cable-based programming
+- Wireless OTA (Over-The-Air) programming
+- ESP32-S3 based wireless programming gateway
+- Wi-Fi Manager for network configuration
+- VEGA ARIES V2 trainer kit for practical experiments
+- GPIO and peripheral interfacing
+- Communication protocol experiments
+- Custom hardware integration for VEGA ARIES V2
 
 ### Project Workflow
 
