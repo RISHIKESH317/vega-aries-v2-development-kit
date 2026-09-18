@@ -15,7 +15,7 @@ The platform integrates:
 - Wireless OTA (Over-The-Air) programming
 - ESP32-S3 based wireless programming gateway
 - Wi-Fi Manager for network configuration
-- VEGA ARIES V2 trainer kit for practical experiments
+- VEGA ARIES V2 trainer kits for practical experiments
 - GPIO and peripheral interfacing
 - Communication protocol experiments
 - Custom hardware integration for VEGA ARIES V2
@@ -26,17 +26,17 @@ The platform integrates:
 
 ---
 
-# Project Setup
+# Project Overview
 
-The complete project setup integrates the VEGA-EDULINK Web IDE, ESP32-S3 wireless programming gateway, VEGA ARIES V2, trainer kit, and connected peripherals.
+The complete project setup integrates the VEGA-EDULINK Web IDE, ESP32-S3 wireless programming gateway, VEGA ARIES V2, trainer kits, and custom hardware.
 
-![Overall Project Setup](DOCS/project-overall.jpg)
+![Project Overview](DOCS/project_overview.jpeg)
 
 ---
 
-## Key Features
+# Key Features
 
-### 1. Web-Based Development Platform
+## 1. Web-Based Development Platform
 
 The Web IDE provides a dedicated environment for VEGA ARIES V2 development.
 
@@ -46,11 +46,11 @@ The development flow is:
 
 The backend build environment processes the source code using the required VEGA RISC-V toolchain and generates the firmware binary required for programming the target device.
 
-### 2. VEGA ARIES V2 Student Learning Kit
+## 2. VEGA ARIES V2 Student Learning Kit
 
-The trainer kit provides a practical platform for experimenting with the VEGA ARIES V2 microcontroller.
+The trainer kits provide a practical platform for experimenting with the VEGA ARIES V2 microcontroller.
 
-It supports experiments involving:
+They support experiments involving:
 
 - GPIO
 - LEDs and switches
@@ -61,9 +61,9 @@ It supports experiments involving:
 - SPI communication
 - Other peripheral experiments
 
-The kit is intended to connect the concepts learned through the web platform with real hardware experiments.
+The kits connect the concepts learned through the web platform with real hardware experiments.
 
-### 3. Custom VEGA ARIES V2 Hardware
+## 3. Custom VEGA ARIES V2 Hardware
 
 As part of the project, a custom schematic symbol and PCB footprint for the VEGA ARIES V2 were created and integrated into the hardware design.
 
@@ -73,27 +73,33 @@ This enables the microcontroller to be incorporated into custom carrier boards a
 
 # Project Documentation
 
-The project was documented through three A3 sheets covering the overall system, trainer kit, and GPIO and communication-protocol development kit.
+The project was documented through three A3 sheets covering the overall system, GPIO trainer kit, and communication-protocol development kit.
 
-### A3 Sheet 1 – Project Overview
+### A3 Sheet – Project Overview
 
-![A3 Overview](DOCS/A3_DOCUMENTATION/A3_Overview.jpg)
+![A3 Project Overview](DOCS/A3_DOCUMENTATION/overview.jpeg)
 
-### A3 Sheet 2 – GPIO Trainer Kit
+### A3 Sheet – GPIO Trainer Kit
 
-![A3 GPIO Trainer Kit](DOCS/A3_DOCUMENTATION/A3_GPIO_Trainer_Kit.jpg)
+![A3 GPIO Kit](DOCS/A3_DOCUMENTATION/GPIO_kit.jpeg)
 
-### A3 Sheet 3 – GPIO & Communication Kit
+### A3 Sheet – Communication Protocol Kit
 
-![A3 GPIO and Communication Kit](DOCS/A3_DOCUMENTATION/A3_GPIO_Communication_Kit.jpg)
+![A3 Communication Protocol Kit](DOCS/A3_DOCUMENTATION/PROTOCOL_kit.jpeg)
 
 ---
 
-# VEGA ARIES V2 Trainer Kit
+# VEGA ARIES V2 Trainer Kits
 
-The trainer kit provides a hands-on platform for experimenting with GPIO, peripherals, sensors, actuators, and communication protocols using the VEGA ARIES V2.
+The trainer kits provide a hands-on platform for experimenting with GPIO, peripherals, sensors, actuators, and communication protocols using the VEGA ARIES V2.
 
-![VEGA ARIES V2 Trainer Kit](DOCS/trainer-kit.jpg)
+### GPIO Trainer Kit
+
+![GPIO Trainer Kit](DOCS/TRAINER_KITS/Trainer_kit_1_GPIOS.jpeg)
+
+### GPIO and Communication Protocol Trainer Kit
+
+![Communication Protocol Trainer Kit](DOCS/TRAINER_KITS/Trainer_kit_2_protocols.jpeg)
 
 ---
 
@@ -101,7 +107,7 @@ The trainer kit provides a hands-on platform for experimenting with GPIO, periph
 
 A custom carrier PCB was designed to integrate the VEGA ARIES V2 into the project hardware and support the required interfaces and connections.
 
-![Custom VEGA ARIES V2 Carrier PCB](DOCS/carrier-pcb.jpg)
+![Custom VEGA ARIES V2 Carrier PCB](DOCS/CARRIER_PCB.jpeg)
 
 ---
 
@@ -160,7 +166,7 @@ The complete system consists of the following major components:
 2. Backend Build Environment
 3. ESP32-S3 Wireless Programming Gateway
 4. VEGA ARIES V2
-5. VEGA ARIES V2 Trainer Kit
+5. VEGA ARIES V2 Trainer Kits
 6. Connected peripherals and communication interfaces
 
 ### Overall Flow
@@ -232,8 +238,8 @@ XMODEM-CRC is used for reliable firmware transfer by providing packet-based tran
 
 - VEGA ARIES V2
 - ESP32-S3
-- VEGA ARIES V2 Trainer Kit
-- Custom VEGA ARIES V2 carrier-board hardware
+- VEGA ARIES V2 Trainer Kits
+- Custom VEGA ARIES V2 carrier PCB
 - USB/UART interface
 - Sensors, displays, actuators, and other peripherals
 
@@ -250,3 +256,27 @@ XMODEM-CRC is used for reliable firmware transfer by providing packet-based tran
 - VEGA ARIES V2 programming interface
 
 ---
+
+# Repository Structure
+
+```text
+vega-aries-v2-development-kit/
+│
+├── FIRMWARE/
+│   └── Firmware source files and programming-related files
+│
+├── DOCS/
+│   │
+│   ├── A3_DOCUMENTATION/
+│   │   ├── overview.jpeg
+│   │   ├── GPIO_kit.jpeg
+│   │   └── PROTOCOL_kit.jpeg
+│   │
+│   ├── TRAINER_KITS/
+│   │   ├── Trainer_kit_1_GPIOS.jpeg
+│   │   └── Trainer_kit_2_protocols.jpeg
+│   │
+│   ├── CARRIER_PCB.jpeg
+│   └── project_overview.jpeg
+│
+└── README.md
